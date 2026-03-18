@@ -1,7 +1,7 @@
 
 # Consulta Qualis CAPES - Desafio Técnico Agora Sabemos
 
-Este projeto é um protótipo de ferramenta desenvolvida para auxiliar coordenadores de pós-graduação na consulta e análise das classificações de periódicos científicos do sistema QUALIS (CAPES).
+O seguinte projeto é um protótipo de ferramenta desenvolvida para auxiliar coordenadores de pós-graduação na consulta e análise das classificações de periódicos científicos do sistema QUALIS (CAPES).
 
 A aplicação é composta por um pipeline de extração e carga de dados (ETL simples), uma API RESTful para servir as informações e uma interface interativa para visualização e filtragem.
 
@@ -52,7 +52,7 @@ _(Este comando lerá o arquivo `.xlsx` e gerará o arquivo `qualis.db` na raiz d
 uvicorn main:app --reload
 ```
 
-A API estará rodando em `http://127.0.0.1:8000`. Acesse a documentação interativa em `http://127.0.0.1:8000/docs`.
+A API estará rodando em `http://127.0.0.1:8000`. Acesse a documentação em `http://127.0.0.1:8000/docs`.
 
 **6. Inicie a Interface (Frontend):** Abra um novo terminal (mantenha a API rodando) e execute:
 
